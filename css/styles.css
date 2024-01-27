@@ -91,7 +91,7 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   padding: 25.5px 0;
-  margin-right: 76px;
+  /*margin-right: 76px;*/
 }
 
 .webstudio {
@@ -510,19 +510,23 @@ button {
   transform: translateY(0%);
 }
 
-/* footer
+/*____________ footer________________________*/
 .footer {
-  background: #2e2f42;
-  padding: 100px 0;
+  background-color: #2e2f42;
+  /* padding-top: 100px;
+  padding-bottom: 100px; */
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .footer-container {
-  display: flex;
-  align-items: baseline;
+  /*display: flex;
+  align-items: baseline;*/
 }
 
 .footer-logo-p {
-  margin-right: 120px;
+  /*margin-right: 120px;*/
+  text-align: center;
 }
 
 .footer-studio {
@@ -535,12 +539,21 @@ button {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  max-width: 264px;
-  margin-top: 17.5px;
+  padding-top: 17.5px;
+  padding-bottom: 72px;
+  /* max-width: 264px; */
+  min-width: 288px;
+  width: 100%;
+  text-align: left;
 }
 
 .social-container {
-  margin-right: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+  /*margin-right: 80px;*/
 }
 
 .social-paragraph {
@@ -642,7 +655,7 @@ button {
   margin-left: 16px;
 }
 
-/* backdrop
+/* backdrop*
 .backdrop {
   width: 100%;
   height: 100%;
