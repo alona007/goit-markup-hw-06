@@ -1,20 +1,20 @@
+/*
 head {
   meta[name="viewport"] {
   }
 }
 
-/* Стилі для екранів шириною 320px і більше */
+/* Стилі для екранів шириною 320px і більше 
 @media screen and (min-width: 320px) {
   /* Ваші стилі тут */
-}
 
-/* Стилі для екранів шириною 768px і більше */
+/* Стилі для екранів шириною 768px і більше 
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
   }
   /* ----------------------HEADER----------------------- */
-
+/*
   .nav-mailphone-list {
     flex-direction: column;
     gap: 12px;
@@ -54,7 +54,7 @@ head {
   }
 
   /* ------------------------HERO--------------------- */
-
+/*
   .main-section {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -74,8 +74,8 @@ head {
     padding: 0;
   }
 
-  /* ------------------------DESCRIPTION--------------------- */
-
+  /* -----------------DESCRIPTION--------------------- */
+/*
   .description {
     padding: 96px 0;
   }
@@ -96,7 +96,7 @@ head {
   }
 
   /* ------------------------------------TEAM SECTION----------- */
-
+/*
   .team-section > .container {
     padding-left: 108px;
     padding-right: 108px;
@@ -115,7 +115,7 @@ head {
   }
 
   /* -------------------PORTFOLIO-------------- */
-
+/*
   .portfolio-menu {
     row-gap: 72px;
   }
@@ -125,7 +125,7 @@ head {
   }
 
   /* -----------------FOOTER--------------------- */
-
+/*
   .footer > .container {
     padding-left: 108px;
     padding-right: 108px;
@@ -159,7 +159,7 @@ head {
   }
 
   /* ----------------------MODAL---------------------- */
-
+/*
   .modal {
     width: 408px;
     min-height: 584px;
@@ -174,7 +174,7 @@ head {
 
 /* ---------------------------DESKTOP-------------------- */
 
-/* Стилі для екранів шириною 1158px і більше */
+/* Стилі для екранів шириною 1158px і більше 
 @media screen and (min-width: 1158px) {
   .container {
     padding-left: 15px;
@@ -184,7 +184,7 @@ head {
   }
 
   /* ----------------------------HEADER------------------------------ */
-
+/*
   .nav-mailphone-list {
     flex-direction: row;
     gap: 40px;
@@ -210,7 +210,7 @@ head {
   }
 
   /* ------------------------HERO--------------------- */
-
+/*
   .main-section {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -232,7 +232,7 @@ head {
   }
 
   /* ------------------------DESCRIPTION--------------------- */
-
+/*
   .description-list {
     row-gap: 0;
     flex-wrap: nowrap;
@@ -262,7 +262,7 @@ head {
   }
 
   /* ------------------------------------TEAM SECTION----------- */
-
+/*
   .team-section > .container {
     padding: 0 16px;
   }
@@ -281,7 +281,7 @@ head {
   }
 
   /* -------------------PORTFOLIO---------------------- */
-
+/*
   .portfolio-menu {
     row-gap: 48px;
   }
@@ -296,7 +296,7 @@ head {
   }
 
   /* -----------------FOOTER------------------ */
-
+/*
   .footer > .container {
     padding: 0 15px;
   }
@@ -331,10 +331,9 @@ head {
   }
 }
 
-/* Приклад для респонсивних фонових зображень із щільністю x2 */
+/* Приклад для респонсивних фонових зображень із щільністю x2 
 @media screen and (min-resolution: 192dpi) {
   /* Ваші стилі тут */
-}
 
 /* Стилі для малих екранів (Mobile First) */
 /* Ваші стилі тут */

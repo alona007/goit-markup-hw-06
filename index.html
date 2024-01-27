@@ -15,6 +15,7 @@
     />
 
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/media.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
   </head>
@@ -26,63 +27,117 @@
           <a class="header-logo" href="./index.html"
             >Web<span class="header-studio webstudio">Studio</span></a
           >
-          <ul class="header-menu-list">
-            <li class="header-menu-item">
-              <a href="./index.html" class="header-menu-link current">Studio</a>
-            </li>
-            <li class="header-menu-item">
-              <a href="" class="header-menu-link">Portfolio</a>
-            </li>
-            <li class="header-menu-item">
-              <a href="" class="header-menu-link">Contacts</a>
-            </li>
-          </ul>
         </nav>
-        <address class="address">
-          <ul class="address-list">
-            <li class="address-item-mail">
-              <a
-                href="mailto:info@devstudio.com"
-                class="address-link"
-                target="_blank"
-                rel="noopener noreferrer"
-                >info@devstudio.com</a
-              >
+        <button type="button" class="mob-menu-open-btn">
+          <svg class="menu-open-btn" width="24" height="24">
+            <use
+              class="mob-burger-icon"
+              href="./images/icons.svg#icon-burger"
+            ></use>
+          </svg>
+        </button>
+      </div>
+      <div class="mob-menu">
+        <div class="mob-wrap-nav">
+          <button type="button" class="mob-menu-close-btn" id="closeModal">
+            <svg width="8" height="8" class="icon-modal-btn">
+              <use href="./images/icons.svg#close-black"></use>
+            </svg>
+          </button>
+          <nav>
+            <ul class="mob-nav-menu">
+              <li class="mob-nav-item">
+                <a class="mob-nav-link" href="./index.html" target="_blank"
+                  >Studio</a
+                >
+              </li>
+              <li class="mob-nav-item">
+                <a class="mob-nav-link" href="" target="_blank">Portfolio</a>
+              </li>
+              <li class="mob-nav-item">
+                <a class="mob-nav-link" href="" target="_blank">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="mob-wrap-address">
+          <address>
+            <ul class="mob-mail-phone-list">
+              <li class="mob-adress-item">
+                <a
+                  class="mob-link-mail-phone"
+                  href="tel:+110001111111"
+                  target="_blank"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li class="mob-adress-item">
+                <a
+                  class="mob-link-mail-phone"
+                  href="mailto:info@devstudio.com"
+                  target="_blank"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+          </address>
+
+          <ul class="mob-icon-list">
+            <li class="mob-icon-item">
+              <a href="" class="mob-icon-link">
+                <svg class="svg-mob" width="24" height="24">
+                  <use href="./images/icons.svg#instagram"></use>
+                </svg>
+              </a>
             </li>
-            <li class="address-item-phone">
-              <a
-                href="tel:+110001111111"
-                class="address-link"
-                target="_blank"
-                rel="noopener noreferrer"
-                >+11 (000) 111-11-11</a
-              >
+            <li class="mob-icon-item">
+              <a href="" class="mob-icon-link">
+                <svg class="svg-mob" width="24" height="24">
+                  <use href="./images/icons.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mob-icon-item">
+              <a href="" class="mob-icon-link">
+                <svg class="svg-mob" width="24" height="24">
+                  <use href="./images/icons.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mob-icon-item">
+              <a href="" class="mob-icon-link">
+                <svg class="svg-mob" width="24" height="24">
+                  <use href="./images/icons.svg#linkedin"></use>
+                </svg>
+              </a>
             </li>
           </ul>
-        </address>
+        </div>
       </div>
     </header>
     <main class="main">
       <!--first-section-->
-      <section class="first-section">
+      <section class="first-section section">
         <div class="container">
           <h1 class="title-first-section">
-            Effective Solutions for Your Business
+            Effective Solutions For Your Business
           </h1>
           <button type="button" class="first-button">Order Service</button>
         </div>
       </section>
+
       <!--second-section-->
       <section class="second-section">
         <div class="container">
           <h2 class="visually-hidden">Benefits</h2>
           <ul class="second-section-list">
             <li class="list-item-second">
-              <div class="icon">
+              <!--<div class="icon">
                 <svg width="64" height="64">
                   <use href="./images/icons.svg#icon1"></use>
                 </svg>
-              </div>
+              </div>-->
               <h3 class="title-section-second">Strategy</h3>
               <p class="text-title-section-second">
                 Our goal is to identify the business problem to walk away with
@@ -90,11 +145,12 @@
               </p>
             </li>
             <li class="list-item-second">
+              <!--
               <div class="icon">
                 <svg width="64" height="64">
                   <use href="./images/icons.svg#icon2"></use>
                 </svg>
-              </div>
+              </div>-->
               <h3 class="title-section-second">Punctuality</h3>
               <p class="text-title-section-second">
                 Bring the key message to the brand's audience for the best price
@@ -102,11 +158,12 @@
               </p>
             </li>
             <li class="list-item-second">
-              <div class="icon">
+              <!--
+                <div class="icon">
                 <svg width="64" height="64">
                   <use href="./images/icons.svg#icon3"></use>
                 </svg>
-              </div>
+              </div>-->
               <h3 class="title-section-second">Diligence</h3>
               <p class="text-title-section-second">
                 Research and confirm brands that present the strongest digital
@@ -114,11 +171,12 @@
               </p>
             </li>
             <li class="list-item-second">
-              <div class="icon">
+              <!--
+                <div class="icon">
                 <svg width="64" height="64">
                   <use href="./images/icons.svg#icon4"></use>
                 </svg>
-              </div>
+              </div>-->
               <h3 class="title-section-second">Technologies</h3>
               <p class="text-title-section-second">
                 Design practice focused on digital experiences. We bring forth a
@@ -128,6 +186,7 @@
           </ul>
         </div>
       </section>
+
       <!--third-section-->
       <section class="third-section">
         <div class="container team-container">
@@ -437,7 +496,7 @@
         </div>
       </section>
     </main>
-    <!--footer-->
+    <!--footer
     <footer class="footer">
       <div class="container footer-container">
         <div class="footer-logo-p">
@@ -512,7 +571,6 @@
           </svg>
         </button>
         <p class="modal-title">Leave your contacts and we will call you back</p>
-        <!--________________________________-->
         <form class="modal-form">
           <div class="modal-field">
             <label for="user-name" class="modal-label">Name</label>
@@ -529,7 +587,7 @@
               </svg>
             </div>
           </div>
-          <!--________________________________-->
+
           <div class="modal-field">
             <label for="user-tel" class="modal-label">Phone</label>
             <div class="modal-input-wrap">
@@ -546,7 +604,7 @@
               </svg>
             </div>
           </div>
-          <!--________________________________-->
+
           <div class="modal-field">
             <label for="user-email" class="modal-label">Email</label>
             <div class="modal-input-wrap">
@@ -563,7 +621,7 @@
               </svg>
             </div>
           </div>
-          <!--________________________________-->
+          
           <div class="modal-field-comment">
             <label for="user-comment" class="modal-label">Comment</label>
             <textarea
@@ -594,6 +652,6 @@
           <button type="submit" class="first-button">Send</button>
         </form>
       </div>
-    </div>
+    </div>-->
   </body>
 </html>
