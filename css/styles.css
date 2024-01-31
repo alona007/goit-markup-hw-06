@@ -33,34 +33,25 @@ a {
 }
 
 .container {
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px 0 15px;
-  width: 100%;
+  max-width: 320px;
+  padding: 0 16px;
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .header {
     height: 56px;
     overflow-x: hidden;
   }
 
   .container {
-    min-width: 320px;
-  }
-
-  .header-menu-list {
-    visibility: hidden;
-  }
-
-  .contacts {
-    visibility: hidden;
+    max-width: 768px;
   }
 }
 
-@media (min-width: 768px) and (max-width: 1157px) {
+@media screen and (max-width: 1158px) {
   .container {
-    width: 768px;
+    max-width: 1158px;
+    padding: 0 15px;
   }
 }
 
