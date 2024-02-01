@@ -312,7 +312,6 @@ button {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-
   padding: 16px 32px;
   border: transparent;
   margin: 0 auto;
@@ -353,9 +352,7 @@ button {
 
 .decription-headerthree {
   font-size: 36px;
-
   font-weight: 700;
-
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: #2e2f42;
@@ -397,7 +394,6 @@ button {
 .image-list {
   display: flex;
   flex-wrap: wrap;
-
   row-gap: 72px;
 }
 
@@ -731,7 +727,6 @@ button {
 
 .modal {
   width: 288px;
-
   min-height: 623px;
   border-radius: 4px;
   background-color: #fcfcfc;
@@ -911,7 +906,6 @@ button {
   margin-right: 8px;
   display: inline-flex;
   flex-shrink: 0;
-
   align-items: center;
   justify-content: center;
   fill: transparent;
